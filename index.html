@@ -12,8 +12,8 @@
     <header class="w-full">
 
         <div id="slider" class="absolute z-[-1] overflow-hidden w-full">
-            <img id="slider-img" class="w-full h-110 transition-all duration-1000 ease-in-out"
-                src="./BacksImages/background 3.jpg" alt="" data-img="img1">
+            <img id="slider-img" class="w-full h-110 transition-all duration-1000 ease-in-out grayscale"
+                src="./Resources/backs/back1.jpg" alt="" data-img="img1">
         </div>
         <div id="overlay" class="w-full h-110 bg-black/70 z-1 relative"></div>
         <nav class=" flex items-center justify-between gap-5 py-8 px-3 absolute z-1 top-0 w-[99%]">
@@ -62,15 +62,21 @@
                 </div>
             </div>
         </nav>
-        <div class="relative -top-80 z-1">
-            <div>
+        <div class="relative -top-80 z-1 flex items-center flex-col gap-5">
+            <div id="Website-info-section" class="">
                 <h2 class="text-amber-50 text-[40px] text-center">Watch Anime Online For FREE!</h2>
                 <p class="text-amber-50 text-[14px] text-center mt-3">Enjoy your Anime anywhere, anytime in HD with the
                     fast streaming servers. <br>
                     If you enjoy the website, please consider sharing it with your friends. Thank You!</p>
             </div>
-            <div></div>
+            <div id="search-sec" class="w-150 flex items-center justify-evenly gap-5 p-3 bg-black mt-5">
+                <img class="" src="./Resources/Logo/search-line.png" alt="">
+                <input type="text" class="text-amber-50 focus:outline-none flex-1" placeholder="Search Anime">
+                <button class="text-amber-50 bg-red-500 py-1 px-4">Search</button>
+            </div>
         </div>
+        <div></div>
+        <div></div>
     </header>
     <script>
         const images = ["./Resources/backs/back1.jpg", "./Resources/backs/back2.jpg", "./Resources/backs/back3.jpg", "./Resources/backs/back4.jpg", "./Resources/backs/back5.jpg", "./Resources/backs/back6.jpg", "./Resources/backs/back7.jpg"];
