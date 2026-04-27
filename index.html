@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,46 @@
 </head>
 
 <body class="bg-[#121212]">
-    <header class="border border-amber-300 h-110">
-        <img class="w-full h-110 relative z-[-1]" src="./BacksImages/background6.jpg" alt="">
-        <nav class=" flex items-center justify-between gap-5 py-8 px-3 absolute z-1 top-0 w-full">
+    <header class="w-full">
+
+        <div id="slider" class="absolute z-[-1] overflow-hidden w-full">
+            <img id="slider-img" class="w-full h-110 transition-all duration-1000 ease-in-out"
+                src="./BacksImages/background 3.jpg" alt="" data-img="img1">
+        </div>
+        <div id="overlay" class="w-full h-110 bg-black/70 z-1 relative"></div>
+        <nav class=" flex items-center justify-between gap-5 py-8 px-3 absolute z-1 top-0 w-[99%]">
             <div class="">
                 <img class="cursor-pointer" src="./Resources/Logo/anigo logo.png" height="45px" width="90px" alt="">
             </div>
             <ul id="navoptions" class="flex items-center gap-15 ">
-                <li class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
-                    <a href=""></a>TYPES</li>
-                <li class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
-                    <a href=""></a>GENRES</li>
-                <li class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
-                    <a href=""></a>NEW RELEASES</li>
-                <li class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
-                    <a href=""></a>UPDATES</li>
-                <li class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
-                    <a href=""></a>ONGOING</li>
-                <li class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
-                    <a href=""></a>RECENT</li>
-                <li class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
-                    <a href=""></a>SCHEDULE</li>
+                <li
+                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    <a href=""></a>TYPES
+                </li>
+                <li
+                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    <a href=""></a>GENRES
+                </li>
+                <li
+                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    <a href=""></a>NEW RELEASES
+                </li>
+                <li
+                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    <a href=""></a>UPDATES
+                </li>
+                <li
+                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    <a href=""></a>ONGOING
+                </li>
+                <li
+                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    <a href=""></a>RECENT
+                </li>
+                <li
+                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    <a href=""></a>SCHEDULE
+                </li>
             </ul>
             <div class=" flex items-center gap-5">
                 <div class="flex items-center">
@@ -42,7 +62,49 @@
                 </div>
             </div>
         </nav>
+        <div class="relative -top-80 z-1">
+            <div>
+                <h2 class="text-amber-50 text-[40px] text-center">Watch Anime Online For FREE!</h2>
+                <p class="text-amber-50 text-[14px] text-center mt-3">Enjoy your Anime anywhere, anytime in HD with the
+                    fast streaming servers. <br>
+                    If you enjoy the website, please consider sharing it with your friends. Thank You!</p>
+            </div>
+            <div></div>
+        </div>
     </header>
+    <script>
+        const images = ["./Resources/backs/back1.jpg", "./Resources/backs/back2.jpg", "./Resources/backs/back3.jpg", "./Resources/backs/back4.jpg", "./Resources/backs/back5.jpg", "./Resources/backs/back6.jpg", "./Resources/backs/back7.jpg"];
+
+
+
+        const imgsrc = document.getElementById("slider-img");
+
+
+        let count = 0;
+        function autoslider() {
+            setInterval(() => {
+                count++;
+                if (count === images.length - 1) {
+                    count = 0;
+
+                }
+                imgsrc.style.transform = 'scale(1)';
+                imgsrc.style.transition = 'none';
+
+                setTimeout(() => {
+                    imgsrc.style.transition = 'transform 1s ease-in-out';
+                    imgsrc.style.transform = 'scale(1.1)';
+                }, 50);
+
+                imgsrc.src = `${images[count]}`;
+
+
+            }, 3000);
+        }
+
+        window.addEventListener("load", autoslider);
+
+    </script>
 </body>
 
 
