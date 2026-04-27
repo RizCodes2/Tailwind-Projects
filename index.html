@@ -75,7 +75,7 @@
                 <button class="text-amber-50 bg-red-500 py-1 px-4">Search</button>
             </div>
         </div>
-        <div id="Types-dropdown" class="hidden border border-amber-300 transition-all duration-100 ease-in-out">
+        <div id="Types-dropdown" class="hidden border border-amber-300">
             <ul class="p-4 flex flex-col w-45 h-60 bg-[#1D1D1D] relative -top-143 left-39.5 z-1 gap-2">
                 <li
                     class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
@@ -103,47 +103,39 @@
     </header>
     <script>
 
+        const typesBtn = document.querySelector('#navoptions li:first-child');
+        const typesDropdown = document.getElementById('Types-dropdown');
 
-        const typesbtn = document.querySelector('#navoptions li:first-child');
-        const typesdropdown = document.getElementById("Types-dropdown");
+        let timeoutId;
 
-        typesbtn.addEventListener("mouseenter", () => {
-            typesdropdown.classList.remove("hidden");
+        // function to show menu 
+        function showMenu() {
+            clearTimeout(timeoutId);
+            typesDropdown.classList.remove('hidden');
+        }
 
-        });
+        //function to hide the menu
+        function hideMenu() {
+            timeoutId = setTimeout(() => {
+                typesDropdown.classList.add('hidden');
+            }, 50)
+        }
 
-        typesbtn.addEventListener("mouseleave", () => {
-            setTimeout(() => {
-                if (!typesDropdown.matches(':hover')) {
-                    typesDropdown.classList.add('hidden');
-                }
-            }, 100);
+        // Events on navoption
+        typesBtn.addEventListener('mouseenter', showMenu);
+        typesBtn.addEventListener('mouseleave', hideMenu);
 
-            // typesdropdown.classList.add("hidden");
-        })
-
-        typesdropdown.addEventListener("mouseleave", () => {
-            typesdropdown.classList.add("hidden");
-        })
-
-        typesdropdown.addEventListener("mouseenter", () => {
-            typesdropdown.classList.remove("hidden");
-        })
-
+        // Events on Dropdown list
+        typesDropdown.addEventListener('mouseenter', showMenu);
+        typesDropdown.addEventListener('mouseleave', hideMenu);
 
 
-
-
-
-
-
-
-
-
+        // background images Array Selection
         const images = ["./Resources/backs/back1.jpg", "./Resources/backs/back2.jpg", "./Resources/backs/back3.jpg", "./Resources/backs/back4.jpg", "./Resources/backs/back5.jpg", "./Resources/backs/back6.jpg", "./Resources/backs/back7.jpg"];
         const imgsrc = document.getElementById("slider-img");
 
 
+        // Loop of Background Images with Animations
         let count = 0;
         function autoslider() {
             setInterval(() => {
@@ -166,6 +158,7 @@
             }, 3000);
         }
 
+        // default automatically call function 
         window.addEventListener("load", autoslider);
 
     </script>
