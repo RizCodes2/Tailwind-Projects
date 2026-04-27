@@ -22,31 +22,31 @@
             </div>
             <ul id="navoptions" class="flex items-center gap-15 ">
                 <li
-                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    class="group text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7 group-hover:block">
                     <a href=""></a>TYPES
                 </li>
                 <li
-                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
                     <a href=""></a>GENRES
                 </li>
                 <li
-                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
                     <a href=""></a>NEW RELEASES
                 </li>
                 <li
-                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
                     <a href=""></a>UPDATES
                 </li>
                 <li
-                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
                     <a href=""></a>ONGOING
                 </li>
                 <li
-                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
                     <a href=""></a>RECENT
                 </li>
                 <li
-                    class="text-[#EEEEEE] font-pathway text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
                     <a href=""></a>SCHEDULE
                 </li>
             </ul>
@@ -75,14 +75,72 @@
                 <button class="text-amber-50 bg-red-500 py-1 px-4">Search</button>
             </div>
         </div>
-        <div></div>
+        <div id="Types-dropdown" class="hidden border border-amber-300 transition-all duration-100 ease-in-out">
+            <ul class="p-4 flex flex-col w-45 h-60 bg-[#1D1D1D] relative -top-143 left-39.5 z-1 gap-2">
+                <li
+                    class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                    <a href="">Movies</a>
+                </li>
+                <li
+                    class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                    <a href="">TV Series</a>
+                </li>
+                <li
+                    class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                    <a href="">OVAs</a>
+                </li>
+                <li
+                    class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                    <a href="">ONAs</a>
+                </li>
+                <li
+                    class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                    <a href="">Specials</a>
+                </li>
+            </ul>
+        </div>
         <div></div>
     </header>
     <script>
+
+
+        const typesbtn = document.querySelector('#navoptions li:first-child');
+        const typesdropdown = document.getElementById("Types-dropdown");
+
+        typesbtn.addEventListener("mouseenter", () => {
+            typesdropdown.classList.remove("hidden");
+
+        });
+
+        typesbtn.addEventListener("mouseleave", () => {
+            setTimeout(() => {
+                if (!typesDropdown.matches(':hover')) {
+                    typesDropdown.classList.add('hidden');
+                }
+            }, 100);
+
+            // typesdropdown.classList.add("hidden");
+        })
+
+        typesdropdown.addEventListener("mouseleave", () => {
+            typesdropdown.classList.add("hidden");
+        })
+
+        typesdropdown.addEventListener("mouseenter", () => {
+            typesdropdown.classList.remove("hidden");
+        })
+
+
+
+
+
+
+
+
+
+
+
         const images = ["./Resources/backs/back1.jpg", "./Resources/backs/back2.jpg", "./Resources/backs/back3.jpg", "./Resources/backs/back4.jpg", "./Resources/backs/back5.jpg", "./Resources/backs/back6.jpg", "./Resources/backs/back7.jpg"];
-
-
-
         const imgsrc = document.getElementById("slider-img");
 
 
