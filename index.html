@@ -26,7 +26,7 @@
                     <a href=""></a>TYPES
                 </li>
                 <li
-                    class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
+                    id="Genre-nav" class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
                     <a href=""></a>GENRES
                 </li>
                 <li
@@ -76,7 +76,7 @@
             </div>
         </div>
         <div id="Types-dropdown" class="hidden border border-amber-300">
-            <ul class="p-4 flex flex-col w-45 h-60 bg-[#1D1D1D] relative -top-143 left-39.5 z-1 gap-2">
+            <ul class="p-4 flex flex-col w-45 h-auto bg-[#1D1D1D] relative -top-143 left-39.5 z-1 gap-2">
                 <li
                     class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
                     <a href="">Movies</a>
@@ -99,9 +99,104 @@
                 </li>
             </ul>
         </div>
-        <div></div>
+        <div id="Genre-Dropdown" class="hidden">
+            <div class="flex items-center relative left-30">
+                <ul class="p-4 flex flex-col w-45 h-auto bg-[#1D1D1D] relative -top-143 left-39.5 z-1 gap-2">
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Action</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Adventure</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Comedy</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Fentasy</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Thrillers</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Romance</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Sci-Fi</a>
+                    </li>
+                </ul>
+                <ul class="p-4 flex flex-col w-45 h-auto bg-[#1D1D1D] relative -top-143 left-39.5 z-1 gap-2">
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Mystery</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Space</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Super Powers</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Games</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Drama</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Sports</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">School</a>
+                    </li>
+                </ul>
+                <ul class="p-4 flex flex-col w-45 h-auto bg-[#1D1D1D] relative -top-143 left-39.5 z-1 gap-2">
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Vempire</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Supernatural</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Horror</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Magic</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Music</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Kids</a>
+                    </li>
+                    <li
+                        class="text-gray-100/60 list-none py-2 px-6 cursor-pointer relative after:content-[''] after:block after:w-0 after:h-10 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-37 hover:after:h-10">
+                        <a href="">Parody</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <script>
+
+        // Type navbar option Functionality
 
         const typesBtn = document.querySelector('#navoptions li:first-child');
         const typesDropdown = document.getElementById('Types-dropdown');
@@ -109,12 +204,14 @@
         let timeoutId;
 
         // function to show menu 
+
         function showMenu() {
             clearTimeout(timeoutId);
             typesDropdown.classList.remove('hidden');
         }
 
         //function to hide the menu
+
         function hideMenu() {
             timeoutId = setTimeout(() => {
                 typesDropdown.classList.add('hidden');
@@ -122,15 +219,52 @@
         }
 
         // Events on navoption
+
         typesBtn.addEventListener('mouseenter', showMenu);
         typesBtn.addEventListener('mouseleave', hideMenu);
 
         // Events on Dropdown list
+
         typesDropdown.addEventListener('mouseenter', showMenu);
         typesDropdown.addEventListener('mouseleave', hideMenu);
 
 
+        // Genre Navbar Option Functionality
+
+        // const GenreBtn = document.querySelector('#navoptions li:2nd-child');
+        const GenreBtn = document.getElementById("Genre-nav");
+        const genreDropdown = document.getElementById('Genre-Dropdown');
+
+        let timesId;
+
+        // function to show genre menu
+         function showGenreMenu() {
+            clearTimeout(timesId);
+            genreDropdown.classList.remove('hidden');
+        }
+
+        // function to hide genre menu 
+        function hideGenreMenu() {
+            timesId = setTimeout(() => {
+                genreDropdown.classList.add('hidden');
+            }, 50)
+        }
+
+        // Events on Genre Type option
+
+        GenreBtn.addEventListener('mouseenter', showGenreMenu);
+        GenreBtn.addEventListener('mouseleave', hideGenreMenu);
+ 
+        // Events on Dropdown list
+
+        genreDropdown.addEventListener('mouseenter', showGenreMenu);
+        genreDropdown.addEventListener('mouseleave', hideGenreMenu);
+
+
+
+
         // background images Array Selection
+
         const images = ["./Resources/backs/back1.jpg", "./Resources/backs/back2.jpg", "./Resources/backs/back3.jpg", "./Resources/backs/back4.jpg", "./Resources/backs/back5.jpg", "./Resources/backs/back6.jpg", "./Resources/backs/back7.jpg"];
         const imgsrc = document.getElementById("slider-img");
 
