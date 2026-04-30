@@ -9,7 +9,7 @@
 </head>
 
 <body class="bg-[#121212]">
-    <header class="w-full">
+    <header class="w-full h-110">
 
         <div id="slider" class="absolute z-[-1] overflow-hidden w-full">
             <img id="slider-img" class="w-full h-110 transition-all duration-1000 ease-in-out grayscale"
@@ -26,18 +26,172 @@
                     <a href="">TYPES</a>
                     <div id="Types-Dropdown" class="hidden bg-[#1D1D1D] absolute top-10 left-0 z-50">
                         <ul class=" p-3 flex flex-col h-auto w-35">
-                            <li class="py-1.5 px-3 text-[14px]"><a href="">Movies</a></li>
-                            <li class="py-1.5 px-3 text-[14px]"><a href="">TV Series</a></li>
-                            <li class="py-1.5 px-3 text-[14px]"><a href="">ONAs</a></li>
-                            <li class="py-1.5 px-3 text-[14px]"><a href="">OVAs</a></li>
-                            <li class="py-1.5 px-3 text-[14px]"><a href="">UPDATES</a></li>
+                            <li
+                                class=" text-amber-50/60 py-1.5 px-3 relative text-[14px] cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                <a href="">Movies</a>
+                            </li>
+                            <li
+                                class=" text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                <a href="">TV Series</a>
+                            </li>
+                            <li
+                                class=" text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                <a href="">ONAs</a>
+                            </li>
+                            <li
+                                class=" text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                <a href="">OVAs</a>
+                            </li>
+                            <li
+                                class=" text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                <a href="">UPDATES</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
                 <li id="Genre-nav"
                     class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative  after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
                     <a href="">GENRES</a>
-
+                    <div id="Genre-Dropdown" class="hidden bg-[#1D1D1D] absolute top-10 left-0 z-50">
+                        <div class="flex items-center">
+                            <ul class=" p-3 flex flex-col h-auto w-35">
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Action</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Adventure</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Comedy</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Thriller</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Fantasy</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Magical</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Serious</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Sports</a>
+                                </li>
+                            </ul>
+                            <ul class=" p-3 flex flex-col h-auto w-35">
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Action</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Adventure</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Comedy</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Thriller</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Fantasy</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Magical</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Serious</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Sports</a>
+                                </li>
+                            </ul>
+                            <ul class=" p-3 flex flex-col h-auto w-35">
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Action</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Adventure</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Comedy</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Thriller</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Fantasy</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Magical</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Serious</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Sports</a>
+                                </li>
+                            </ul>
+                            <ul class=" p-3 flex flex-col h-auto w-35">
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Action</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Adventure</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Comedy</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Thriller</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Fantasy</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Magical</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Serious</a>
+                                </li>
+                                <li
+                                    class="text-amber-50/60 py-1.5 px-3 text-[14px] relative cursor-pointer after:content-[''] after:block after:w-0 after:h-8.5 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-150 hover:text-amber-50 hover:after:w-28.5 hover:after:h-8.5">
+                                    <a href="">Sports</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
                 <li
                     class="text-[#EEEEEE] text-[17px] cursor-pointer px-2 relative z-1 after:content-[''] after:block after:w-0 after:h-0 after:bg-red-500 after:absolute after:top-0 after:left-0 after:z-[-1] after:transition-all after:duration-100 hover:after:w-8 hover:after:h-7">
@@ -85,8 +239,33 @@
                 <button class="text-amber-50 bg-red-500 py-1 px-4">Search</button>
             </div>
         </div>
-
     </header>
+    <main>
+        <div class="px-2.5  flex gap-6">
+            <span class="text-amber-50 font-medium text-[18px]">LATEST<BR>UPDATES</span>
+            <div class="">
+                <ul class="flex items-center gap-3 mt-6.5">
+                    <li class="text-amber-50/35 font-normal text-[18px] hover:text-red-500/65"><a href="">All</a></li>
+                    <li class="text-amber-50/35 font-normal text-[18px] hover:text-red-500/65"><a href="">Sub</a></li>
+                    <li class="text-amber-50/35 font-normal text-[18px] hover:text-red-500/65"><a href="">Dub</a></li>
+                    <li class="text-amber-50/35 font-normal text-[18px] hover:text-red-500/65"><a href="">China</a></li>
+                    <li class="text-amber-50/35 font-normal text-[18px] hover:text-red-500/65"><a href="">Trending</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center ml-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-amber-50/40 w-10 h-10" viewBox="0 0 24 24" fill="white">
+                    <path
+                        d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-amber-50/40 w-10 h-10" viewBox="0 0 24 24" fill="white">
+                    <path
+                        d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+    </main>
     <script>
         const typesBtn = document.querySelector('#navoptions li:first-child');
         const typesDropdown = document.getElementById('Types-Dropdown');
@@ -110,21 +289,36 @@
 
         // Events on navoption
 
-        // typesBtn.addEventListener('mouseenter', showMenu);
-        // typesBtn.addEventListener('mouseleave', hideMenu);
+        typesBtn.addEventListener('mouseenter', showMenu);
+        typesBtn.addEventListener('mouseleave', hideMenu);
 
         // Events on Dropdown list
 
-        // typesDropdown.addEventListener('mouseenter', showMenu);
-        // typesDropdown.addEventListener('mouseleave', hideMenu);
-
-        const dropdownContainer = document.getElementById('types-dropdown-navlink');
-
-        dropdownContainer.addEventListener('mouseenter', showMenu);
-        dropdownContainer.addEventListener('mouseleave', hideMenu);
+        typesDropdown.addEventListener('mouseenter', showMenu);
+        typesDropdown.addEventListener('mouseleave', hideMenu);
 
 
+        const GenreBtn = document.getElementById("Genre-nav");
+        const GenreDropDown = document.getElementById("Genre-Dropdown");
 
+        let timesId;
+
+        function ShowGenreMenu() {
+            clearTimeout(timesId);
+            GenreDropDown.classList.remove("hidden");
+        }
+
+        function hideGenreMenu() {
+            timesId = setTimeout(() => {
+                GenreDropDown.classList.add('hidden');
+            }, 150)
+        }
+
+        GenreBtn.addEventListener("mouseenter", ShowGenreMenu);
+        GenreBtn.addEventListener("mouseleave", hideGenreMenu);
+
+        GenreDropDown.addEventListener("mouseenter", ShowGenreMenu);
+        GenreDropDown.addEventListener("mouseleave", hideGenreMenu);
 
         // background images Array Selection
 
