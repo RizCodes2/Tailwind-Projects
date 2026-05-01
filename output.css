@@ -549,8 +549,14 @@
   .border-amber-50 {
     border-color: var(--color-amber-50);
   }
+  .border-red-600 {
+    border-color: var(--color-red-600);
+  }
   .border-t-red-500 {
     border-top-color: var(--color-red-500);
+  }
+  .border-t-red-600 {
+    border-top-color: var(--color-red-600);
   }
   .bg-\[\#1D1D1D\] {
     background-color: #1D1D1D;
