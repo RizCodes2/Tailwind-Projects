@@ -14,7 +14,7 @@
     <header class="w-full h-110">
 
         <div id="slider" class="absolute z-[-1] overflow-hidden w-full">
-            <img id="slider-img" class="w-full h-110 transition-all duration-1000 ease-in-out grayscale"
+            <img id="slider-img" class=" w-full h-110 transition-all duration-1000 ease-in-out grayscale"
                 src="./Resources/backs/back1.jpg" alt="" data-img="img1">
         </div>
         <div id="overlay" class="w-full h-110 bg-linear-to-b from-black/60 to-[#121212] z-1 pointer-events-none"></div>
@@ -242,8 +242,9 @@
             </div>
         </div>
     </header>
+
     <main>
-        <div id="Latest-Update-Section" class="px-2.5  flex gap-6">
+        <div id="Latest-Update-Section" class="px-2.5 flex gap-6">
             <span class="text-amber-50 font-medium text-[18px]">LATEST<BR>UPDATES</span>
             <div class="">
                 <ul class="flex items-center gap-5 mt-6.5">
@@ -974,22 +975,25 @@
     </footer>
     <script>
 
+        // language Button Toggle
 
         const buttons = document.querySelectorAll('.lang-btn');
 
         buttons.forEach(btn => {
             btn.addEventListener('click', () => {
-                
+
                 buttons.forEach(b => {
                     b.classList.remove('bg-red-500');
                     b.classList.add('bg-[#282828]');
                 });
 
-                
+
                 btn.classList.add('bg-red-500');
                 btn.classList.remove('bg-[#282828]');
             });
         });
+
+        // navbar menu functionality
 
         const typesBtn = document.querySelector('#navoptions li:first-child');
         const typesDropdown = document.getElementById('Types-Dropdown');
