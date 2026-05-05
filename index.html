@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AniGo</title>
     <link rel="stylesheet" href="output.css">
+
+
 </head>
 
 <body class="bg-[#121212]">
@@ -216,10 +218,10 @@
             </ul>
             <div class=" flex items-center gap-5">
                 <div class="flex items-center">
-                    <span
-                        class="bg-red-500 text-amber-50 w-8 h-8 flex items-center justify-center cursor-pointer px-5">EN</span>
-                    <span
-                        class="bg-[#282828] text-amber-50 w-8 h-8 flex items-center justify-center cursor-pointer px-5">JP</span>
+                    <span id="english"
+                        class="lang-btn bg-red-500 text-amber-50 w-8 h-8 flex items-center justify-center cursor-pointer px-5 ">EN</span>
+                    <span id="japanease"
+                        class="lang-btn bg-[#282828] text-amber-50 w-8 h-8 flex items-center justify-center cursor-pointer px-5 ">JP</span>
                 </div>
                 <div class="h-8 w-8 flex items-center justify-center bg-[#282828] rounded-2xl p-1.5 cursor-pointer">
                     <img src="./Resources/Logo/user.png" alt="">
@@ -575,11 +577,15 @@
                 </div>
                 <div class="">
                     <div class="group">
-                        <div class="relative overflow-hidden after:content-['01'] after:absolute after:z-15 after:bottom-1 after:w-15 after:h-15 after:bg-red-600 after:flex after:items-center after:justify-center after:text-amber-50 after:text-4xl after:font-medium">
-                            <img class="w-120 h-52 z-5 relative transition-all duration-1200 group-hover:transform group-hover:scale-[1.04]" src="./Resources/AnimeImages/naruto landscape 2.jpg" alt="">
-                            <div class="w-70 h-100 opacity-0 transition-all duration-700 transform rotate-40 bg-amber-50/90 z-10 absolute top-0 left-60 group-hover:opacity-100 group-hover:left-125"></div>
+                        <div
+                            class="relative overflow-hidden after:content-['01'] after:absolute after:z-15 after:bottom-1 after:w-15 after:h-15 after:bg-red-600 after:flex after:items-center after:justify-center after:text-amber-50 after:text-4xl after:font-medium">
+                            <img class="w-120 h-52 z-5 relative transition-all duration-1200 group-hover:transform group-hover:scale-[1.04]"
+                                src="./Resources/AnimeImages/naruto landscape 2.jpg" alt="">
+                            <div
+                                class="w-70 h-100 opacity-0 transition-all duration-700 transform rotate-40 bg-amber-50/90 z-10 absolute top-0 left-60 group-hover:opacity-100 group-hover:left-125">
+                            </div>
                         </div>
-                        
+
                         <div class=" px-4 flex items-center gap-3 bg-[#252525] p-3 hover:bg-[#313131] cursor-pointer">
 
                             <div class="flex flex-col gap-1">
@@ -688,7 +694,7 @@
                     </div>
                 </div>
             </div>
-            <div  id="just-completed Section" class="w-[33%]">
+            <div id="just-completed Section" class="w-[33%]">
                 <div class="flex items-center justify-between">
                     <span class="text-amber-50 font-medium text-[18px]">JUST<br>COMPLETED</span>
                     <button class="mt-2.5 w-6 h-6 bg-red-500">
@@ -852,34 +858,90 @@
         <div id="Search-by-alphabets" class="mt-20">
             <h3 class="text-center text-amber-50/40 mb-5">Searching anime order by alphabet name A to Z</h3>
             <div class="flex items-center justify-center gap-2">
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">All</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">0-9</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">A</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">B</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">C</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">D</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">E</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">F</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">G</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">H</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">I</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">J</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">K</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">L</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">M</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">N</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">O</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">P</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">Q</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">R</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">S</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">T</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">U</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">V</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">W</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">X</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">Y</p>
-                <p class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">Z</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    All</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    0-9</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    A</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    B</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    C</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    D</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    E</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    F</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    G</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    H</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    I</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    J</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    K</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    L</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    M</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    N</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    O</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    P</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    Q</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    R</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    S</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    T</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    U</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    V</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    W</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    X</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    Y</p>
+                <p
+                    class="w-7 h-7 bg-[#323232] text-[15px] text-amber-50 flex items-center justify-center hover:bg-red-600 hover:text-amber-50">
+                    Z</p>
             </div>
         </div>
     </main>
@@ -890,26 +952,44 @@
         </div>
         <div class=" h-30 flex flex-col gap-1">
             <div class="flex items-center ml-auto mb-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-red-600 w-6 h-6"
-                    viewBox="0 0 24 24" fill="white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-red-600 w-6 h-6" viewBox="0 0 24 24"
+                    fill="white">
                     <path
                         d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z">
                     </path>
                 </svg>
                 <span class="text-amber-50 text-[16px]">REQUEST</span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-red-600 w-6 h-6"
-                    viewBox="0 0 24 24" fill="white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-red-600 w-6 h-6" viewBox="0 0 24 24"
+                    fill="white">
                     <path
                         d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z">
                     </path>
                 </svg>
                 <span class="text-amber-50 text-[16px]">CONTACT US</span>
             </div>
-            <p class="text-amber-50/40 text-[14px]">Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties</p>
+            <p class="text-amber-50/40 text-[14px]">Disclaimer: This site does not store any files on its server. All
+                contents are provided by non-affiliated third parties</p>
             <p class="text-amber-50/40 text-[13px] ml-auto">Rizwan Ali</p>
         </div>
     </footer>
     <script>
+
+
+        const buttons = document.querySelectorAll('.lang-btn');
+
+        buttons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                
+                buttons.forEach(b => {
+                    b.classList.remove('bg-red-500');
+                    b.classList.add('bg-[#282828]');
+                });
+
+                
+                btn.classList.add('bg-red-500');
+                btn.classList.remove('bg-[#282828]');
+            });
+        });
 
         const typesBtn = document.querySelector('#navoptions li:first-child');
         const typesDropdown = document.getElementById('Types-Dropdown');
@@ -995,6 +1075,9 @@
 
         // default automatically call function 
         window.addEventListener("load", autoslider);
+
+
+
     </script>
 </body>
 
