@@ -420,6 +420,9 @@
   .gap-0 {
     gap: calc(var(--spacing) * 0);
   }
+  .gap-0\.5 {
+    gap: calc(var(--spacing) * 0.5);
+  }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
@@ -498,6 +501,9 @@
   }
   .bg-\[\#323232\] {
     background-color: #323232;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -1303,11 +1309,6 @@
       --tw-drop-shadow-size: initial;
       --tw-duration: initial;
       --tw-ease: initial;
-      --tw-content: "";
-    }
-  }
-}
--tw-ease: initial;
       --tw-content: "";
     }
   }
