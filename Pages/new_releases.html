@@ -245,7 +245,7 @@
                     </path>
                 </svg>
                 <div id="dropdown-type"
-                    class="hidden w-52 border border-amber-50 bg-[#1D1D1D] absolute top-10 left-0 z-20 p-5 flex-col gap-1.5 group-active:">
+                    class="hidden w-52 bg-[#1D1D1D] absolute top-10 left-0 z-20 p-5 flex-col gap-1.5 group-active:">
                     <div class="mt-2">
                         <input type="checkbox" name="" id="">
                         <span class="text-amber-50/70 text-[14px]">Movie</span>
@@ -264,16 +264,110 @@
                     </div>
                 </div>
             </div>
-            <div
+            <div id="genre-drop-btn"
                 class="group p-1.5 bg-[#1D1D1D] hover:bg-[#282828] flex items-center justify-between transition-all duration-300 w-52">
                 <span
                     class="text-amber-50/35 text-[14px] group-hover:text-amber-50 transition-all duration-300 ">Genre</span>
-                <svg class="w-6 h-6 fill-current text-amber-50/50 group-hover:text-amber-50 transition-all duration-300 "
+                <svg id="genre-drop-arrow"
+                    class="w-6 h-6 fill-current text-amber-50/50 group-hover:text-amber-50 transition-all duration-300 "
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                     <path
                         d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
                     </path>
                 </svg>
+                <div id="dropdown-genre"
+                    class="opacity-0 w-100 bg-[#1D1D1D] absolute top-54 left-109 z-20 p-5  flex items-center gap-5">
+                    <div class="w-33">
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Action</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Adventure</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Horror</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Comedy</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Romance</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Thriller</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Suspence</span>
+                        </div>
+                    </div>
+                    <div class="w-33">
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Mystry</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Natural</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Funny</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Sports</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Super Powers</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Marvel</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Games</span>
+                        </div>
+                    </div>
+                    <div class="w-33">
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Love</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Time Travles</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Martial Arts</span>
+                        </div>
+                        <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Football</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Live Action</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">Robolox</span>
+                        </div>
+                         <div class="mt-2">
+                            <input type="checkbox" name="" id="">
+                            <span class="text-amber-50/70 text-[14px]">DCEU</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div
                 class="group p-1.5 bg-[#1D1D1D] hover:bg-[#282828] flex items-center justify-between transition-all duration-300 w-52">
@@ -464,6 +558,28 @@
                 arrow.classList.remove('rotate-180');
             }
         });
+
+
+        // new releases genere dropdown
+
+        const GenreDropBtn = document.getElementById('genre-drop-btn');
+        const GenreDropArr = document.getElementById('genre-drop-arrow');
+        const GenreDropMenu = document.getElementById('dropdown-genre');
+
+        GenreDropBtn.addEventListener('click', (e) => {
+            if (e.target.closest('#dropdown-genre')) return;
+            GenreDropMenu.classList.toggle('opacity-100');
+            GenreDropArr.classList.toggle('rotate-180');
+        });
+
+        // Close when clicking anywhere outside
+        document.addEventListener("click", (e) =>{
+            if(!GenreDropBtn.contains(e.target)){
+                GenreDropMenu.classList.toggle("opacity-100");
+                GenreDropArr.classList.remove('rotate-180');
+            }
+            
+        })
     </script>
 </body>
 
